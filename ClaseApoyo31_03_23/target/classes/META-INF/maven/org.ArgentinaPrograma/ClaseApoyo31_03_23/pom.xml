@@ -3,6 +3,10 @@
   <groupId>org.ArgentinaPrograma</groupId>
   <artifactId>ClaseApoyo31_03_23</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+	  <maven.compiler.tarject>17</maven.compiler.tarject>
+	  <maven.compile.source>17</maven.compile.source>
+  </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
