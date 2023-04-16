@@ -14,7 +14,7 @@ public class MainTP {
 		
 		// Leer resultados
 		Collection<Partido> partidos = new ArrayList<Partido>();
-
+		
 		//Path pathResultados = Paths.get(args[0]);
 		Path pathResultados = Paths.get("C:\\Users\\Usuario\\eclipse-workspace\\ClaseApoyo31_03_23\\resultados_test1.csv");
 		
@@ -71,6 +71,9 @@ public class MainTP {
 				for (Partido partidoCol : partidos) {
 					if (partidoCol.getEquipo1().getNombre().equals(equipo1.getNombre()) && partidoCol.getEquipo2().getNombre().equals(equipo2.getNombre())) {
 						partido = partidoCol;
+						System.out.println(partidoCol.getEquipo1().getNombre() + " es igual a " + equipo1.getNombre() + " y " + partidoCol.getEquipo2().getNombre() + " es igual a " + equipo2.getNombre() + " por lo tanto es TRUE y se instancia el partido");
+					} else {
+						System.out.println(partidoCol.getEquipo1().getNombre() + " es igual a " + equipo1.getNombre() + " y " + partidoCol.getEquipo2().getNombre() + " es igual a " + equipo2.getNombre() + " por lo tanto es FALSE y NO se instancia el partido");
 					}
 				}
 				
@@ -84,10 +87,10 @@ public class MainTP {
 					equipo = equipo1;
 					resultado = EnumResultado.EMPATE;
 				}
-				/*if("X".equals(campos[3])) {
+				if("X".equals(campos[3])) {
 					equipo = equipo1;
 					resultado = EnumResultado.PERDEDOR;
-				}*/
+				}
 
 				Pronostico pronostico = new Pronostico(partido, equipo, resultado);
 				// sumar los puntos correspondientes

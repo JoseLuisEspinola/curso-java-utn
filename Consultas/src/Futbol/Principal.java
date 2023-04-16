@@ -9,6 +9,8 @@ public class Principal {
 		
 		ArrayList<Jugador> jugadores = new ArrayList<Jugador>();
 		
+		System.out.println(jugadores);
+		
 		
 		Jugador j1 = new Jugador("messi", 10, "medio campo");
 		Jugador j2 = new Jugador("kun", 11, "delantero");

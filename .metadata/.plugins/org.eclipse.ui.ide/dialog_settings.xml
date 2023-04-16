@@ -15,6 +15,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Usuario\eclipse-workspace\SistemaGestion"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\pruebaCsv"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\Pruebafutbol"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\GestorDeCorrelativas"/>
 			<item value="C:\Descargar\argentina-programa-java-ejemplo-archivos\LectorCSV\src"/>
 			<item value="C:\FutbolProfe\argentina-programa-java-ejemplo-archivos\LectorCSV\src"/>
 		</list>

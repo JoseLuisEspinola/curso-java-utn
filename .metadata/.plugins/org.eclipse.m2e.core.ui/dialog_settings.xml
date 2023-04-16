@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Usuario\eclipse-workspace\Pruebafutbol"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -75,10 +76,11 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Usuario\eclipse-workspace\ClaseApoyo31_03_23"/>
-			<item value="C:\Users\Usuario\eclipse-workspace\GestorDeCorrelativas"/>
-			<item value="C:\Profe Federico Prandi\argentina-programa-java-ejemplo-archivos-main\LectorCSV"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\Pruebafutbol"/>
 			<item value="C:\Users\Usuario\eclipse-workspace\GestorCorrelativas"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\GestorDeCorrelativas"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\ClaseApoyo31_03_23"/>
+			<item value="C:\Profe Federico Prandi\argentina-programa-java-ejemplo-archivos-main\LectorCSV"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -95,11 +97,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Pruebafutbol"/>
 			<item value="org.ArgentinaPrograma"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Pruebafutbol"/>
 			<item value="ClaseApoyo31_03_23"/>
 		</list>
 		<list key="version">

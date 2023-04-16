@@ -8,7 +8,7 @@ public class Portero extends Jugador {
     public static final int MAX_CARACTERISTICA = 10;
 
     
-    // Constructor for objects of class Portero
+    // Constructor para objetos de clase Portero
     public Portero(int dorsal, boolean crack) {
         super(dorsal, crack);
         Random rnd = new Random();
@@ -16,8 +16,7 @@ public class Portero extends Jugador {
             agilidad = MAX_CARACTERISTICA;
             mentalidad = MAX_CARACTERISTICA;
         }
-        else
-        {
+        else {
             agilidad = rnd.nextInt(11);
             mentalidad = rnd.nextInt(11);
         }
