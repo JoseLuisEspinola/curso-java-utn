@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Usuario
+Build-Jdk: 17.0.7
+Main-Class: modelo.Main
+Created-By: Maven Integration for Eclipse
+

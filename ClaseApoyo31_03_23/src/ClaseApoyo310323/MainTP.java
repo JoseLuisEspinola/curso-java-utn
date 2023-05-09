@@ -16,7 +16,8 @@ public class MainTP {
 		Collection<Partido> partidos = new ArrayList<Partido>();
 		
 		//Path pathResultados = Paths.get(args[0]);
-		Path pathResultados = Paths.get("C:\\Users\\Usuario\\eclipse-workspace\\ClaseApoyo31_03_23\\resultados_test1.csv");
+		Path pathResultados = Paths.get("resultados_test1.csv");
+				//"C:\\Users\\Usuario\\eclipse-workspace\\ClaseApoyo31_03_23\\resultados_test1.csv");
 		
 		List<String> lineasResultados = null;
 		
@@ -35,6 +36,7 @@ public class MainTP {
 			} else {
 				// Argentina,1,2,Arabia Saudita
 				String[] campos = lineaResultado.split(",");
+				System.out.println(campos[0]);
 				Equipo equipo1 = new Equipo(campos[0]);
 				Equipo equipo2 = new Equipo(campos[3]);
 				Partido partido = new Partido(equipo1, equipo2);
@@ -47,7 +49,8 @@ public class MainTP {
 		// Leer pronostico
 		int puntos = 0; // total puntos pesona
 			
-		Path pathPronostico = Paths.get("C:\\Users\\Usuario\\eclipse-workspace\\ClaseApoyo31_03_23\\pronostico_test1.csv");
+		Path pathPronostico = Paths.get("pronostico_test1.csv");
+				//"C:\\Users\\Usuario\\eclipse-workspace\\ClaseApoyo31_03_23\\pronostico_test1.csv");
 		List<String> lineasPronostico = null;
 		try {
 			lineasPronostico = Files.readAllLines(pathPronostico);
@@ -71,9 +74,9 @@ public class MainTP {
 				for (Partido partidoCol : partidos) {
 					if (partidoCol.getEquipo1().getNombre().equals(equipo1.getNombre()) && partidoCol.getEquipo2().getNombre().equals(equipo2.getNombre())) {
 						partido = partidoCol;
-						System.out.println(partidoCol.getEquipo1().getNombre() + " es igual a " + equipo1.getNombre() + " y " + partidoCol.getEquipo2().getNombre() + " es igual a " + equipo2.getNombre() + " por lo tanto es TRUE y se instancia el partido");
+						//System.out.println(partidoCol.getEquipo1().getNombre() + " es igual a " + equipo1.getNombre() + " y " + partidoCol.getEquipo2().getNombre() + " es igual a " + equipo2.getNombre() + " por lo tanto es TRUE y se instancia el partido");
 					} else {
-						System.out.println(partidoCol.getEquipo1().getNombre() + " es igual a " + equipo1.getNombre() + " y " + partidoCol.getEquipo2().getNombre() + " es igual a " + equipo2.getNombre() + " por lo tanto es FALSE y NO se instancia el partido");
+						//System.out.println(partidoCol.getEquipo1().getNombre() + " es igual a " + equipo1.getNombre() + " y " + partidoCol.getEquipo2().getNombre() + " es igual a " + equipo2.getNombre() + " por lo tanto es FALSE y NO se instancia el partido");
 					}
 				}
 				

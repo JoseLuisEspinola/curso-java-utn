@@ -21,7 +21,7 @@ public class ClasificacionEquipo
     
     public ClasificacionEquipo()  {
         // initialiso las variables de instancia
-        this.puntos = puntos;
+        this.puntos = 0;
         this.pj = 0;
         this.pg = 0;
         this.pe = 0;

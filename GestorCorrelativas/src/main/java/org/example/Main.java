@@ -48,8 +48,8 @@ public class Main {
         materias.add(baseDeDatos);
 
         Alumno alumnoJose = new Alumno("Jose Rodriguez", "FE1234");
-        Alumno alumnoSosa = new Alumno("Vanesa Sosa", "FE1234");
-        Alumno alumnoPerez = new Alumno("Lucia Perez", "FE1234");
+        Alumno alumnoSosa = new Alumno("Vanesa Sosa", "FI1234");
+        Alumno alumnoPerez = new Alumno("Lucia Perez", "FG1234");
 
         alumnoSosa.agregarMateriaAprobada(programacionI);
         alumnoSosa.agregarMateriaAprobada(programacionII);

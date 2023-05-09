@@ -64,11 +64,7 @@ public class Principal {
 			String[] resulPartido1 = resultadoPartido1.getGanador();
 			String[] resulPartido2 = resultadoPartido2.getGanador();
 
-			//Las 2 siguientes lineas las utilice para ver si podia ver correctamente el ARCHIVO RESULTADO REAL, con "x" e "-"
-			//System.out.println("Partido 1 RESULTADO: " + resulPartido1[0] + " " + resulPartido1[1] + " " + resulPartido1[2] + " " + resulPartido1[3] + " " + resulPartido1[4]);
-			//System.out.println("Partido 2 RESULTADO: " + resulPartido2[0] + "   " + resulPartido2[1] + " " + resulPartido2[2] + " " + resulPartido2[3] + " " + resulPartido2[4]);
-			
-			
+				
 			// **************************************************
 			// para sumar puntos del partido 1
 			// **************************************************

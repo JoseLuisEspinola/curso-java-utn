@@ -42,6 +42,7 @@ public class Materia {
 
 	@Override
 	public String toString() {
+		System.out.println("pasa por aqui en materia");
 		return "Materia [nombre=" + nombre + ", correlativas=" + correlativas + "]";
 	}
 
