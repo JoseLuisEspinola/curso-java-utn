@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;PronostivoApuestas&apos; to &apos;ClasesApuestas&apos;&#x0D;&#x0A;- Original project: &apos;PronosticoDeportivo&apos;&#x0D;&#x0A;- Original element: &apos;PronosticoDeportivo/src/PronostivoApuestas&apos;&#x0D;&#x0A;- Renamed element: &apos;PronosticoDeportivo/src/ClasesApuestas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;PronostivoApuestas&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;PronostivoApuestas" name="ClasesApuestas" qualified="false" references="true" stamp="1682977945196" textual="false" version="1.0"/>
+</session>

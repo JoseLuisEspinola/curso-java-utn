@@ -2,7 +2,6 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Users\Usuario\eclipse-workspace\Pruebafutbol"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -26,10 +25,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="ArgentinaPrograma.PronosticoDeportivo"/>
 		</list>
 		<list key="groupId">
+			<item value="ArgentinaPrograma"/>
 		</list>
 		<list key="artifactId">
+			<item value="PronosticoDeportivo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -76,11 +78,21 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Usuario\eclipse-workspace\Pruebafutbol"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TPFinal4"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TPFinal3"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\ArgentinaProgramaTPIntegradorJava-main"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TPIntegrador2"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TPFinal2"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\ClaseApoyoPronostico"/>
 			<item value="C:\Users\Usuario\eclipse-workspace\GestorCorrelativas"/>
-			<item value="C:\Users\Usuario\eclipse-workspace\GestorDeCorrelativas"/>
-			<item value="C:\Users\Usuario\eclipse-workspace\ClaseApoyo31_03_23"/>
-			<item value="C:\Profe Federico Prandi\argentina-programa-java-ejemplo-archivos-main\LectorCSV"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TP-Integrador"/>
+			<item value="C:\TPSilvia\TP-Integrador"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TP-1-Pronostico-Deportivo-main"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\TP-Integrador-main"/>
+			<item value="C:\Users\Usuario\eclipse-workspace\Trabajo-Practico-Java\proyecto-tp"/>
+			<item value="C:\PresentacionFinal\Trabajo-Practico-Java-main"/>
+			<item value="C:\PresentacionFinal\Trabajo-Practico-Java\proyecto-tp\src"/>
+			<item value="C:\PresentacionFinal\Trabajo-Practico-Java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
